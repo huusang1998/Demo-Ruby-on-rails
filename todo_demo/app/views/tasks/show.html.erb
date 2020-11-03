@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+<div class='content'>
+<h1 class='title'> Detail Task</h1>
+<p class='lable'>
+  <strong>Name:</strong>
+</p>
+<%= @task.name %>
+<p>
+  <strong class='lable'>Detail:</strong>
+  <%= @task.detail %>
+</p>
+
+<p>
+  <strong class='lable'>Status:</strong>
+  <%if @task.status%>
+   <span>done</span>
+   <%else%>
+    <span>doning</span>
+    <% end %>
+</p>
+<div class='content-btn'>
+<button class='btn-show'><%= link_to 'Edit', edit_task_path(@task) %></button>
+<button class='btn-back'><%= link_to 'Back', tasks_path %></button>
+</div>
+</div>

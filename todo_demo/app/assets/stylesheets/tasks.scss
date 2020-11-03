@@ -1,0 +1,139 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.title {
+  color: #337ab7;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 41px;
+  line-height: 31px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.date {
+  color: #337ab7;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 41px;
+  line-height: 31px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.action {
+ text-align: center;
+}
+
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.content {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.lable {
+  display: inline-block;
+    max-width: 100%;
+    color: cadetblue;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.select {
+  width: 10%;
+  height:25px;
+}
+
+.button {
+  margin-top: 25px;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.btn-back {
+  margin-left: -2px;
+  width: 4%;
+}
+
+.btn-add {
+  width: 56px;
+}
+
+.select-field {
+  width: 8%;
+  height: 25px;
+}
+
+.btn-update {
+  width: 8%;
+  margin-bottom: 10px;
+  margin-top: 38px;
+}
+
+.btn-show {
+  width: 4%;
+  margin-bottom: 10px;
+}
+
+.content-btn {
+background-color: #f2f2f2;
+padding: 19px;
+}
+
+.content-btnnew {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  margin-top: 38px
+}
+
+.title-edit {
+  color: #337ab7;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 41px;
+  line-height: 31px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+.todo-container {
+  display: flex;
+}
+
+.content-table {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.new-task {
+  width: 15rem;
+  height: auto;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.content-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-login{
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+.btn-login{
+  padding: 4px;
+  width: 65px;
+}

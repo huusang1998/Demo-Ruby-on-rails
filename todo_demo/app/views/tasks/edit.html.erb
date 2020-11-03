@@ -1,0 +1,7 @@
+<h1 class='title-edit'>Editing Task</h1>
+
+<%= render 'form', task: @task %>
+<div class='content-btn'>
+<button class='btn-show'><%= link_to 'Show', @task,:class=>'btn-link' %></button>
+<button class='btn-back'><%= link_to 'Back', tasks_path %></button>
+</div>

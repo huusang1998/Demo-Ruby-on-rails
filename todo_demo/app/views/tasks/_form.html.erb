@@ -1,0 +1,21 @@
+
+<%= form_with(model: task, local: true) do |form| %>
+<div class='content'>
+  <%= form.label :name,:class=>'lable' %>:
+  <div class="field">
+    <%= form.text_field :name, id: :name ,:class=>'input' %>
+  </div>
+  <%= form.label :detail, :class=>'lable' %>:
+  <div class="field">
+    <%= form.text_field :detail, id: :detail,:class=>'input' %>
+  </div>
+  <%= form.label :status, :class=>'lable' %>:
+  <div class="field">
+    <%= form.collection_select(:status, Status.all, :status,:name,{},{:class=>'select-field'}) %>
+  </div>
+
+  <div class="actions">
+  <button type='submit' class='btn-update'>Update</button>
+  </div>
+</div>
+<% end %>
